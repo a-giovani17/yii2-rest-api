@@ -57,7 +57,7 @@ $config = [
                     'pluralize' => false
                 ],
                 'login' => 'auth/create',
-                'error/401' => 'error/401'
+                '<controller:\w+>/<action:\w+>'=>'<controller>/<action>', 
             ],
         ]
     ],
