@@ -2,13 +2,14 @@
 
 namespace app\controllers;
 
-use yii\rest\Controller;
+use app\core\BaseController;
+use app\models\Customer;
 
-class CustomerController extends Controller
+class CustomerController extends BaseController
 {
 
 	public function actionIndex(){
-		return "customeraa";
+		return Customer::find()->all();
     }
 
 }
