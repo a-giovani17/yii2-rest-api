@@ -2,9 +2,9 @@
 
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'mysql:host=localhost;dbname=prestashop',
+    'dsn' => 'mysql:host=localhost;dbname=yourdbname',
     'username' => 'root',
-    'password' => '',
+    'password' => 'passwd',
     'charset' => 'utf8',
 
     // Schema cache options (for production environment)
