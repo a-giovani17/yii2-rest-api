@@ -1,3 +1,9 @@
+CREATE TABLE `og_token` (
+  `id` int(11) NOT NULL,
+  `token` varchar(100) NOT NULL,
+  `date_expired` datetime NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 CREATE TABLE `ps_customer` (
   `id_customer` int(10) UNSIGNED NOT NULL,
   `id_shop_group` int(11) UNSIGNED NOT NULL DEFAULT '1',
