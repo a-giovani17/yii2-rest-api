@@ -38,7 +38,7 @@ CREATE TABLE `ps_customer` (
 
 INSERT INTO `ps_customer` (`id_customer`, `id_shop_group`, `id_shop`, `id_gender`, `id_default_group`, `id_lang`, `id_risk`, `company`, `siret`, `ape`, `firstname`, `lastname`, `email`, `passwd`, `last_passwd_gen`, `birthday`, `newsletter`, `ip_registration_newsletter`, `newsletter_date_add`, `optin`, `website`, `outstanding_allow_amount`, `show_public_prices`, `max_payment_days`, `secure_key`, `note`, `active`, `is_guest`, `deleted`, `date_add`, `date_upd`) VALUES
 (1, 1, 1, 1, 3, 1, 0, '', '', '', 'John', 'DOE', 'pub@prestashop.com', '57c37781455502b9373788e6ce1e0db8', '2017-11-12 21:52:33', '1970-01-15', 1, '', '2013-12-13 08:19:15', 1, '', '0.000000', 0, 0, 'ee3e70e0568d7d24123d4cf774ea8cc2', '', 1, 0, 0, '2017-11-13 10:52:33', '2017-11-13 10:52:33'),
-(3, 1, 1, 1, 3, 1, 0, NULL, NULL, NULL, 'Achmad', 'Giovani', 'a.giovani17@gmail.com', 'ff2858ccb18332a996136c179177c5b1', '2017-11-27 23:51:06', '1990-12-17', 0, NULL, '0000-00-00 00:00:00', 0, NULL, '0.000000', 0, 0, '973ed172d784adc2fc68b27481dfcd84', NULL, 1, 0, 0, '2017-11-28 12:51:06', '2017-11-28 12:51:06');
+(3, 1, 1, 1, 3, 1, 0, NULL, NULL, NULL, 'Achmad', 'Giovani', 'a.giovani17@gmail.com', '57c37781455502b9373788e6ce1e0db8', '2017-11-27 23:51:06', '1990-12-17', 0, NULL, '0000-00-00 00:00:00', 0, NULL, '0.000000', 0, 0, '973ed172d784adc2fc68b27481dfcd84', NULL, 1, 0, 0, '2017-11-28 12:51:06', '2017-11-28 12:51:06');
 
 --
 -- Indexes for dumped tables
